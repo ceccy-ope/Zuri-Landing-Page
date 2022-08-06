@@ -182,28 +182,13 @@ footer {
     padding: 20px;
 }
 
-.footer h3 {
+footer h3 {
     font-size: 16px;
     font-weight: bold;
     line-height: 24px;
     color: #514949;
 }
 
-.quick-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.quick-links a {
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 20px;
-    color: #514949;
-    opacity: 0.9;
-}
-
-.contact p,
 .address p {
     font-size: 14px;
     line-height: 20px;
@@ -211,7 +196,7 @@ footer {
     opacity: 0.9;
 }
 
-.contact-icons img {
+.icons img {
     width: 18px !important;
     margin-right: 5px;
 }
@@ -229,4 +214,7 @@ footer hr {
     margin-top: 32px;
     color: #514949;
     padding-bottom: 97px;
+    justify-content: center;
+    margin-left: 700px;
+
 }
