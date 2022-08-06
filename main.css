@@ -1,0 +1,232 @@
+/* Landing Page CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+}
+.header{
+    background-image: url(https://zuri.team/img/hero-bg.svg);
+    height: 800px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+a {
+    color: #E7332B;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #eb5850;
+}
+.img1 {
+    margin: auto;
+    display: flex;
+    padding-top: 69px;
+    margin-bottom: 69px;
+}
+
+.img1 img {
+    margin: auto;
+}
+
+.lbg {
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lbg h2 {
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: 800;
+    color: #514949;
+    margin-bottom: 36px;
+}
+
+.lbg p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.btn {
+    margin-top: 92px;
+    display: inline block;
+        text-align: center;
+        align-items: flex-start;
+}
+
+.mbtn {
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+
+}
+
+.indbtn {
+    background-color: #E7332B;
+    color: #fff;
+    margin-right: 24px;
+}
+
+.indbtn:hover {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.expbtn {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.expbtn:hover {
+    background-color: #E7332B;
+    color: #fff;
+}
+
+
+
+main {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+
+.main1h {
+padding-top: 0;
+    font-size: 14px;
+    line-height: 24px;
+    color: #E7332B;
+    margin-top: 141px;
+    text-align: center;
+}
+
+.main1p {
+    
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 10px;
+
+}
+
+
+.pic {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.pic1 {
+    width: 70%;
+    height: 600px;
+}
+
+.pic2 {
+    width: 30%;
+    height: 600px;
+}
+
+.zuricat{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -550px  !important;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+
+.zuricat div {
+  
+    width: 30%;
+    background-color: #FFFAFA;
+    padding: 61px 47px 82px 36px;
+    text-align: justify-all;
+}
+
+.zuricat div img {
+    margin-bottom: 48px;
+}
+
+.zuricat div p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.zuricat div h3{
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7332B;
+    opacity: 0.9;
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 215px;
+}
+
+.footerparent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    padding: 20px;
+}
+
+.footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #514949;
+}
+
+.quick-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.quick-links a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.contact p,
+.address p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.contact-icons img {
+    width: 18px !important;
+    margin-right: 5px;
+}
+
+
+footer hr {
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+}
+
+.copyright p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 32px;
+    color: #514949;
+    padding-bottom: 97px;
+}
