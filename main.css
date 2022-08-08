@@ -314,7 +314,6 @@ footer hr {
 
     /* CSS for New to Industry Page*/
 
-
 * {
     margin: 0;
     padding: 0;
@@ -329,6 +328,7 @@ body {
     background-color: #fffdf5;
     width: 100%;
     margin-top: 40px;
+    color: #fffdf5;
 
 }
 
@@ -338,19 +338,17 @@ body {
 
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
 
 
 }
 
-.text {
-    width: 80%;
-}
-
 .text a {
     text-decoration: none;
     font-size: 20px;
+
+
 }
 
 .row2 {
@@ -376,6 +374,7 @@ body {
     font-size: 48px;
     font-weight: 600;
     text-align: center;
+    color: #000;
 
 }
 
@@ -392,8 +391,8 @@ body {
 }
 
 .wire {
-    width: 242px;
-    height: 72px;
+    width: 342px;
+    height: 122px;
 }
 
 .line {
@@ -410,6 +409,311 @@ body {
 }
 
 .maleface {
-    width: px;
-    height: px;
+    width: 60px;
+    height: 60px;
+}
+
+.enroll {
+    display: flex;
+    align-items: center;
+}
+
+.thumb {
+    border: 80px;
+    background-color: #f07f77;
+    border-radius: 50px;
+}
+
+.btn1 {
+    border: 2px;
+    border-radius: 30px;
+    background-color: #f07f77;
+    padding: 12px 40px;
+    size: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 1px;
+
+}
+
+.r2midr5 {
+    margin-top: 40px;
+    display: flex;
+
+
+
+
+
+
+
+}
+
+.btn2 {
+
+
+    border-radius: 30px;
+    background-color: #f07f77;
+    padding: 5px 40px;
+    size: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+
+
+}
+
+.row2 {
+    margin-bottom: 35px;
+}
+
+.row3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.launch {
+    font-weight: 600;
+    color: #000;
+}
+
+.help {
+    font-weight: 400;
+    text-align: right;
+    line-height: 30px;
+    color: #000;
+}
+
+.help a {
+    color: #43b97f;
+}
+
+.row4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.r41 h3 {
+    color: #e7332b;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+
+.r41 h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+}
+
+.wireb {
+    margin-left: 350px;
+}
+
+.star {
+    margin-right: 200px;
+}
+
+.row5 {
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    margin-top: 60px;
+    padding-top: 20px;
+    margin: 40px;
+
+}
+
+.white {
+    border: 10px;
+    background-color: #e7332b;
+    padding-left: 50px;
+    text-align: left;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.row5r1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.row5r1 h1 {
+    margin-top: 70px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.white h2 {
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+.white h3 {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 50px;
+
+}
+
+.yellow {
+    border: 10px;
+    background-color: white;
+    padding-left: 50px;
+    text-align: left;
+    border-radius: 20px;
+    color: black;
+}
+
+.yellow h2 {
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+.yellow h3 {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 50px;
+
+}
+
+.green {
+    border: 10px;
+    background-color: #ffffff;
+    padding-left: 50px;
+    text-align: left;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 15px;
+}
+
+.green h2 {
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+.green h3 {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 50px;
+
+}
+
+.row56 {
+    background: #feece8;
+    margin: 0px;
+
+}
+
+.row6 {
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    margin-top: 60px;
+    padding-top: 20px;
+    margin: 40px;
+
+}
+
+.pink {
+    border: 10px;
+    background-color: white;
+    padding-left: 50px;
+    text-align: left;
+    border-radius: 20px;
+    color: black;
+
+}
+
+.row6r1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.row6r1 h1 {
+    margin-top: 70px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.pink h2 {
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+.pink h3 {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 50px;
+
+}
+
+.orange {
+    border: 10px;
+    background-color: white;
+    padding-left: 50px;
+    text-align: left;
+    border-radius: 20px;
+    color: black;
+}
+
+.orange h2 {
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+.orange h3 {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 50px;
+
+}
+
+
+.blue {
+    border: 10px;
+    background-color: #ffffff;
+    padding-left: 50px;
+    text-align: left;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 15px;
+}
+
+.blue h2 {
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+.blue h3 {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 50px;
+
 }
