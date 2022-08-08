@@ -137,7 +137,7 @@ padding-top: 0;
 .zuricat{
     display: flex;
     justify-content: space-between;
-    margin-top: -550px  !important;
+    margin-top: -550px !important; 
     width: 80%;
     height: 500px;
     margin: auto;
@@ -218,3 +218,96 @@ footer hr {
     margin-left: 700px;
 
 }
+
+
+
+
+@media (max-width: 768px) {
+
+    .header {
+        height: auto;
+    }
+
+    .logo-img {
+        display: block;
+        padding-top: 50px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .lbg h2 {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .btn {
+        
+        padding-bottom: 50px;
+        
+    }
+
+
+    button.mbtn {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        justify-content: center;
+       
+    }
+    .main{
+        
+   display: block;
+    }
+
+
+    .pic {
+            display: none;
+        }
+
+    .zuricat{
+      
+       flex-direction: column;
+      
+        height: 1700px;
+        margin-top: 100px !important;
+     
+    
+    }
+    .zuricat div{
+        width: 100%;
+       
+    }
+
+    
+    
+    .footerparent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .footer-logo {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .footerparent h3 {
+        font-size: 24px;
+        margin-top: 20px;
+
+    }
+    .links a{
+        padding: 10px;
+    }
+    .address{
+        justify-content: center;
+      align-items: center;
+    }
+    .copyright{
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+
+    }
