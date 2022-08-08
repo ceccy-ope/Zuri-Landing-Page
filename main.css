@@ -311,3 +311,105 @@ footer hr {
     }
 
     }
+
+    /* CSS for New to Industry Page*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Graphik', sans-serif;
+}
+
+
+@import url('http://fonts.cdnfonts.com/css/graphik');
+
+body {
+    background-color: #fffdf5;
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+.section1 {
+    margin: 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+
+.text {
+    width: 80%;
+}
+
+.text a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.lady {
+    width: 378px;
+    height: 351px;
+}
+
+.r2mid {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.r2mid h1 {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.basic {
+    text-align: center;
+    font-weight: 400;
+
+}
+
+.search {
+    text-align: center;
+    color: #f07f77;
+    font-weight: 400;
+}
+
+.wire {
+    width: 242px;
+    height: 72px;
+}
+
+.line {
+    width: 376px;
+    height: 18.25px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+
+}
+
+.male {
+    width: 340px;
+    height: 420px;
+}
+
+.maleface {
+    width: px;
+    height: px;
+}
